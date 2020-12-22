@@ -2,7 +2,7 @@ version: '3'
 
 services:
 
-  db:
+  application:
     build:
       context: .
       dockerfile: dockerfile
