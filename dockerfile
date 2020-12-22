@@ -6,5 +6,4 @@ RUN mvn -f /home/app/pom.xml clean package
 FROM openjdk:8-jdk-alpine
 ARG JAR_FILE=/home/app/target/*.jar
 COPY --from=build ${JAR_FILE} app.jar
-# ENV JAVA_MAIN_CLASS=Application.java
 ENTRYPOINT ["java","-jar","/app.jar"]
