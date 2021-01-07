@@ -15,6 +15,6 @@ public class Application {
         String user = System.getenv("user");
         String psw = System.getenv("psw");
         SpringApplication.run(Application.class, args);
-        log.info("User {} started application with environment {} and psw {} and args {}", user, environment, psw, args);
+        log.info("User {} started application with environment: {} and password: {} and following arguments {}", user, environment, psw, args);
     }
 }
