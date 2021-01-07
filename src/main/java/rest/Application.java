@@ -13,6 +13,7 @@ public class Application {
     public static void main(String[] args) {
         String environment = System.getenv("environment");
         String user = System.getenv("user");
+        String psw = System.getenv("psw");
         SpringApplication.run(Application.class, args);
         log.info("User {} started application with environment {} and args {}", user, environment, args );
     }

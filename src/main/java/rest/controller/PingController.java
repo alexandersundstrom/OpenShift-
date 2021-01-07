@@ -18,4 +18,9 @@ public class PingController {
         log.info("Endpoint was pinged");
         return ResponseEntity.ok("Ping");
     }
+    @RequestMapping("/healthcheck")
+    public ResponseEntity<String> healthchec() {
+        log.info("Healtcheck ok");
+        return ResponseEntity.ok("Healthcheck");
+    }
 }
