@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class PingController {
 
-    private Logger log = LoggerFactory.getLogger(PingController.class);
+    private final Logger log = LoggerFactory.getLogger(PingController.class);
 
     @RequestMapping
     public ResponseEntity<String> getPing() {

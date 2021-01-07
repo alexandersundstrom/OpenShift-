@@ -8,7 +8,7 @@ import rest.controller.PingController;
 
 @SpringBootApplication
 public class Application {
-    private static Logger log = LoggerFactory.getLogger(PingController.class);
+    private static final Logger log = LoggerFactory.getLogger(PingController.class);
 
     public static void main(String[] args) {
         String environment = System.getenv("environment");
