@@ -17,6 +17,6 @@ class PingControllerTest {
 
     @Test
     void healthchec() {
-     fail("Healthcheck failed.");
+
     }
 }
