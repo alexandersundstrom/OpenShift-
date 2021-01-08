@@ -10,3 +10,6 @@ Follow this [guide](https://docs.openshift.com/container-platform/3.6/dev_guide/
 
 ## OpenShift Sandbox
 To test Openshift there is a [sandbox](https://developers.redhat.com/developer-sandbox) available online.
+
+## dockerfile
+The dockerfile is not used when building from Git, but can be used if you instead select to build from a dockerfile.
